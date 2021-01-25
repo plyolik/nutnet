@@ -551,8 +551,7 @@ footer {
     }
 }
 
-
-#zatemnenie {
+#overlay {
     background:rgba(0,0,0,.7);
     width: 100%;
     height: 100%;
@@ -562,13 +561,13 @@ footer {
     align-items:center;
     z-index:100;
   }
-  #okno {
+  #window {
     text-align: center;
     padding: 150px;
     justify-content:center;
   }
 
-  #zatemnenie:target {display: block;}
+  #overlay:target {display: block;}
   .close {
     display: inline-block;
     border: 1px solid #14141d;
@@ -597,10 +596,6 @@ footer {
     height: 100%;
 }
 
-
-.asd {
+.zero-grow {
     flex-grow: 0!important;
 }
-
-
-  
