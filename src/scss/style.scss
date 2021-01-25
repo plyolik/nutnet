@@ -142,7 +142,7 @@ main {
     margin: 0;    
 }
 
-.about-conteiner {
+.about-container {
     color: rgb(65, 61, 75);
     padding-top: 62px;
     padding-bottom: 70px;
@@ -178,7 +178,7 @@ main {
     flex-direction:column;
 }
 
-.conteiner-video {
+.container-video {
     background-image: url(../assets/img/backgrounds/background-about.png);
 }
 
@@ -202,7 +202,7 @@ main {
     }
 }
 
-.expertise-conteiner {
+.expertise-container {
     .name {
         color: black;
     }
@@ -230,7 +230,7 @@ main {
     margin-bottom: 15px;
     margin-top: 2px;}
 
-.teams-conteiner {
+.teams-container {
     background-image: url(../assets/img/backgrounds/background-team.png); 
 }
 
@@ -356,7 +356,7 @@ button {
     border: none;
 }
 
-.testimonials-conteiner {
+.testimonials-container {
     background-image: url(../assets/img/backgrounds/background-testimonials.png); 
 
     .margin70 {
@@ -386,7 +386,7 @@ button {
     min-height: 149px;
 }
 
-.testimonials-conteiner {
+.testimonials-container {
     .name {
         margin: -3px 0 2px;
     }
