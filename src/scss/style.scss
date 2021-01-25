@@ -1,6 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 
 
+body {
+    max-width: 1600px;
+}
+
 a:hover {
     color: #ffffff;
     text-decoration: none;
@@ -31,7 +35,9 @@ header {
 
    nav {
        div {
-           margin-left: 20px;
+           margin-left: 27px;
+            color: rgb(0, 224, 208);
+
        }
     }
 
@@ -57,7 +63,7 @@ header {
     .line {
         background: #00e0d0;
         height: 1px;
-        margin: 27px auto 30px auto;
+        margin: 16px auto 27px auto;
     }
 }
 .text {
@@ -73,7 +79,7 @@ header {
 }
 
 .text-container {
-    padding: 150px 81px 53px 81px;
+    padding: 166px 81px 46px 81px;
 }
 
 .nav-container {
@@ -81,7 +87,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
-    padding-top: 15px;
+    padding-top: 30px;
     align-items: center;
 
     div {
@@ -107,7 +113,7 @@ nav {
     text-transform: uppercase;
     font-size: 13px;
     font-family: "Roboto";
-    color: rgb(0, 224, 208);
+    color: rgb(255, 255, 255);
     font-weight: 700;
 }
 
@@ -118,7 +124,7 @@ nav {
 }
 
 .my-button {
-    width: 140px;
+    width: 120px;
     height: 40px;
     border-width: 1px;
     border-color: rgb(0, 224, 208);
@@ -138,28 +144,33 @@ main {
 
 .about-conteiner {
     color: rgb(65, 61, 75);
-    padding-top: 70px;
+    padding-top: 62px;
     padding-bottom: 70px;
     display: flex;
     text-align: initial;
 
+    .my-button {
+        margin-top: 4px;
+    }
+
     img {
-        padding: 0 100px 0 65px;
+        padding: 8px 100px 0 65px;
         height: 100%;
     }
 
     span {
-        margin-bottom: 31px;
+        margin-bottom: 25px;
         color: rgba(65, 61, 75, 0.749);
     }
     .capital {
-        margin: 0 0 20px 0;
+        margin: 0 0 17px 0;
+
     }
 }
 .capital {
     font-size: 22px;
     font-family: "Playfair Display";
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .flex-direction {
@@ -174,10 +185,10 @@ main {
 .video {
     display: flex;
     flex-direction: column;
-    margin: 200px auto;
+    margin: 198px auto;
 
     img {
-        margin: 0 auto 31px;
+        margin: 3px auto 28px;
         width: 100px;
         height: 100px;
     }
@@ -210,26 +221,26 @@ main {
     }
 
     .col {
-        padding-bottom: 40px;
+        padding-bottom: 28px;
     }
 }
 
 .color-grey {
     color:  #78777b;
-    margin-bottom: 20px;
-}
+    margin-bottom: 15px;
+    margin-top: 2px;}
 
 .teams-conteiner {
     background-image: url(../assets/img/backgrounds/background-team.png); 
 }
 
 .team-block {
-    margin: 47px auto 65px;
+    margin: 47px auto 67px;
     flex-wrap: wrap;
 }
 
 .team-content {
-    margin: 59px auto;
+    margin: 59px auto 69px;
 
     span {
         font-size: 14px;
@@ -244,10 +255,13 @@ main {
     }
 
     .capital {
-        margin-bottom: 15px;
+        margin-bottom: 3px;
         color: white;
-
-    }           
+    }  
+    
+    .my-button {
+        width: 140px;
+    }
 }
 
 .name-end-position {
@@ -258,7 +272,7 @@ main {
     text-align: center;
 
     .name {
-        margin: 20px 0 5px 0;
+        margin: 14px 0 0px 0;
     }
 
     .position {
@@ -298,16 +312,37 @@ main {
 }
 
 .work-header {
-    padding: 70px 0;
+    padding: 62px 0;
 
     span {
         color: rgb(65, 61, 75);
     }
 }
 
+.work-footer {
+    .my-button {
+        margin: 70px auto;
+    }
+}
+
 .work-main {
+    max-width: 1600px;
+    margin: 0;
+    padding: 0!important;
+
+    .row {
+        margin: 0;
+        padding: 0;
+        .col {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
     img {
         margin: 0;
+        width: 100%;
+
     }
 }
 
@@ -323,10 +358,14 @@ button {
 
 .testimonials-conteiner {
     background-image: url(../assets/img/backgrounds/background-testimonials.png); 
+
+    .margin70 {
+        margin: 62px auto 68px;
+    }
 }
 
 .margin70 {
-    margin: 65px auto;
+    margin: 61px auto;
 }
 
 .quotes {
@@ -334,7 +373,7 @@ button {
     font-family: "Playfair Display";
     color: rgba(255, 255, 255, 0.902);
     line-height: 0.22;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 .review {
@@ -349,10 +388,13 @@ button {
 
 .testimonials-conteiner {
     .name {
-        margin-bottom: 10px;
+        margin: -3px 0 2px;
     }
     .position {
         margin-bottom: 40px;
+        font-size: 13px;
+        color: white;
+        opacity: 0.5;    
     }
 }
 
@@ -374,15 +416,17 @@ button {
     }
 }
 
-
-
 .input {
     padding: 0 240px;
 }
   
-.contact-conteiner {
+.container-contact {
+
+    max-width: 490px;
+    margin: 61px auto 70px;
+
     .capital {
-        margin-bottom: 25px;
+        margin: 0px auto 15px;
     }
 
     p {
@@ -390,15 +434,19 @@ button {
     }
 
     button {
-        margin-top: 10px;
-    }    
+        margin-top: 7px;
+    }  
+    
+    .col {
+        margin: 7px auto;
+    }
 }
 
 input {
     height: 45px;
     width: 100%;
-    margin: 10px 0;
-    padding: 5px;
+    margin: 5px 0;
+    padding: 15px;
     border: 1px solid rgba(65, 61, 75, 0.502);
     color: rgba(65, 61, 75, 0.502);
     outline: none;
@@ -407,10 +455,9 @@ input {
 textarea {
     width: 100%;
     height: 200px;
-    margin: 10px 0;
     border: 1px solid rgba(65, 61, 75, 0.502);
     color: rgba(65, 61, 75, 0.502);
-    padding: 5px;
+    padding: 15px;
     outline: none;
 }
 
@@ -421,7 +468,7 @@ footer {
 
      nav {
         div {
-            margin-right: 30px;
+            margin-right: 45px;
         }
 
     }
@@ -443,12 +490,12 @@ footer {
    }
 
    .container {
-       margin-bottom: 30px;
+       margin-bottom: 60px;
    }
 }
 
 .footer-block {
-    padding: 64px 0;
+    padding: 83px 0 62px;
 }
 
 .line-full {
@@ -467,10 +514,6 @@ footer {
         margin-right: 11px;
     }
 }
-
-// .row {
-//     margin-bottom: 20px;
-// }
 
 .paper-btn {
     cursor: pointer;
@@ -558,5 +601,6 @@ footer {
 .asd {
     flex-grow: 0!important;
 }
+
 
   

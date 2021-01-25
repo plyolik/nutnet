@@ -25,6 +25,18 @@ import './assets/img/icons/dribbble.png'
 import './assets/img/icons/instagram.png'
 import './assets/img/icons/google.png'
 import './assets/img/icons/youtube.png'
+import './assets/img/works/1-1.png'
+import './assets/img/works/1-2.png'
+import './assets/img/works/1-3.png'
+import './assets/img/works/1-4.png'
+import './assets/img/works/1-5.png'
+import './assets/img/works/1-6.png'
+import './assets/img/works/2-1.png'
+import './assets/img/works/2-2.png'
+import './assets/img/works/2-3.png'
+import './assets/img/works/2-4.png'
+import './assets/img/works/2-5.png'
+import './assets/img/works/2-6.png'
 
 
 const body = document.body;
